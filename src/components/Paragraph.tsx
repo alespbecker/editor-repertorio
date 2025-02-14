@@ -1,15 +1,19 @@
 
 import React from "react";
 
+// Interface que define as propriedades do componente Paragraph
 interface ParagraphProps {
-  value: string;
-  onChange: (value: string) => void;
-  placeholder?: string;
+  value: string;      // Conteúdo do parágrafo
+  onChange: (value: string) => void; // Função chamada quando o conteúdo é alterado
+  placeholder?: string; // Texto placeholder opcional
 }
 
+// Componente Paragraph: representa um parágrafo editável no editor
 const Paragraph = ({ value, onChange, placeholder }: ParagraphProps) => {
   return (
+    // Container com animação de fade in
     <div className="animate-fade-in">
+      {/* Área de texto editável com suporte a modo escuro */}
       <textarea
         value={value}
         onChange={(e) => onChange(e.target.value)}
