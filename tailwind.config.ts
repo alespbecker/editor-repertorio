@@ -21,10 +21,22 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         editor: {
-          surface: "#ffffff",
-          border: "#e2e8f0",
-          text: "#334155",
-          placeholder: "#94a3b8",
+          surface: {
+            light: "#ffffff",
+            dark: "#1a1a1a",
+          },
+          border: {
+            light: "#e2e8f0",
+            dark: "#2d2d2d",
+          },
+          text: {
+            light: "#334155",
+            dark: "#e2e8f0",
+          },
+          placeholder: {
+            light: "#94a3b8",
+            dark: "#4a5568",
+          },
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
