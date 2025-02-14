@@ -1,69 +1,84 @@
-# Welcome to your Lovable project
 
-## Project info
+# Editor de Texto com Modo Escuro
 
-**URL**: https://lovable.dev/projects/1833c5b5-ffc7-476b-983f-1b03aba3ed97
+Um editor de texto simples e elegante com suporte a modo escuro/claro e salvamento automático de rascunhos.
 
-## How can I edit this code?
+## Funcionalidades
 
-There are several ways of editing your application.
+- ✍️ Editor de texto com múltiplos parágrafos
+- 🌓 Modo escuro/claro
+- 💾 Salvamento automático de rascunhos
+- 📱 Interface responsiva
+- 👀 Visualização em tempo real
 
-**Use Lovable**
+## Pré-requisitos
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1833c5b5-ffc7-476b-983f-1b03aba3ed97) and start prompting.
+Antes de começar, você precisará ter instalado em sua máquina:
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) (normalmente vem com o Node.js)
 
-**Use your preferred IDE**
+## Instalação
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Siga estes passos para instalar e rodar o projeto localmente:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone o repositório
+```bash
+git clone <URL_DO_REPOSITÓRIO>
+```
 
-Follow these steps:
+2. Entre no diretório do projeto
+```bash
+cd <NOME_DO_PROJETO>
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Instale as dependências
+```bash
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Inicie o servidor de desenvolvimento
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Abra o navegador e acesse
+```
+http://localhost:8080
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Tecnologias Utilizadas
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Vite
+- Lucide Icons
 
-## How can I deploy this project?
+## Estrutura do Projeto
 
-Simply open [Lovable](https://lovable.dev/projects/1833c5b5-ffc7-476b-983f-1b03aba3ed97) and click on Share -> Publish.
+```
+src/
+  ├── components/        # Componentes React
+  │   ├── DraftEditor.tsx   # Componente principal do editor
+  │   └── Paragraph.tsx     # Componente de parágrafo editável
+  ├── hooks/            # Hooks personalizados
+  ├── styles/           # Arquivos de estilo
+  └── main.tsx         # Ponto de entrada da aplicação
+```
 
-## I want to use a custom domain - is that possible?
+## Contribuindo
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Faça commit das suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Faça push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## Suporte
+
+Se você encontrar algum problema ou tiver alguma sugestão, por favor, abra uma [issue](https://github.com/seu-usuario/seu-repositorio/issues) no GitHub.
