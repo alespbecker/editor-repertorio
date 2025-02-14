@@ -78,7 +78,3 @@ src/
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## Suporte
-
-Se você encontrar algum problema ou tiver alguma sugestão, por favor, abra uma [issue](https://github.com/seu-usuario/seu-repositorio/issues) no GitHub.
