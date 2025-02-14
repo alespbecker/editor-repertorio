@@ -5,7 +5,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useIsMobile } from "@/hooks/use-mobile";
 import Paragraph from "./Paragraph";
 
-// Interface que define a estrutura de um rascunho
+// Interface que define a estrutura do rascunho
 interface Draft {
   id: string;          // Identificador único do rascunho
   paragraphs: string[]; // Array de parágrafos do texto
@@ -140,8 +140,8 @@ const DraftEditor = () => {
                 onChange={(value) => handleParagraphChange(index, value)}
                 placeholder={
                   index === 0
-                    ? "Comece a escrever seu texto aqui..."
-                    : "Continue sua história..."
+                    ? "Comece a escrever sua redação aqui..."
+                    : "Continue sua redação..."
                 }
               />
             ))}
