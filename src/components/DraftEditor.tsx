@@ -91,7 +91,7 @@ const DraftEditor = () => {
           {/* Cabeçalho com título e botões de ação */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 mb-6">
             <h1 className="text-2xl font-semibold text-editor-text dark:text-white">
-              Editor de 
+              Editor de Redação
             </h1>
             {/* Grupo de botões */}
             <div className="flex gap-2 sm:gap-3 w-full sm:w-auto justify-end">

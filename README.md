@@ -7,11 +7,11 @@ Um editor de texto simples e elegante com suporte a modo escuro/claro e salvamen
 
 - ✍️ Editor de texto com múltiplos parágrafos
 - 🌓 Modo escuro/claro
-- 💾 Salvamento automático de rascunhos
+- 💾 Salvamento de rascunhos
 - 📱 Interface responsiva
 - 👀 Visualização em tempo real
 
-## Pré-requisitos
+## Pré-requisitos para rodar o projeto
 
 Antes de começar, você precisará ter instalado em sua máquina:
 
@@ -24,12 +24,12 @@ Siga estes passos para instalar e rodar o projeto localmente:
 
 1. Clone o repositório
 ```bash
-git clone <URL_DO_REPOSITÓRIO>
+git clone https://github.com/alessandrobecker/repertorio-enem-editor.git
 ```
 
 2. Entre no diretório do projeto
 ```bash
-cd <NOME_DO_PROJETO>
+cd repertorio-enem-editor
 ```
 
 3. Instale as dependências
@@ -66,15 +66,3 @@ src/
   ├── styles/           # Arquivos de estilo
   └── main.tsx         # Ponto de entrada da aplicação
 ```
-
-## Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Faça commit das suas alterações (`git commit -m 'Add some AmazingFeature'`)
-4. Faça push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
